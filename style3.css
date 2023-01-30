@@ -1,0 +1,39 @@
+.header1 {
+  background-image: linear-gradient(
+    to right,
+    rgb(7, 13, 23),
+    rgb(8, 50, 82),
+    rgb(11, 48, 112),
+    rgb(8, 50, 82),
+    rgb(7, 13, 23)
+  );
+  padding: 0.75rem 1rem;
+}
+.navbar {
+  background-color: #121d33;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.section1 {
+  height: 90vh;
+  background-image: url("home-hero-gradient.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.former {
+  width: 60%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.content1 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 15%;
+  padding-top: 12%;
+}
+.former::placeholder {
+  color: rgb(255, 255, 255) !important;
+  opacity: 5;
+}
